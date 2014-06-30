@@ -1,3 +1,4 @@
+from __future__ import division
 from pyres import __version__
 from resweb import __version__ as res_version
 from pyres.worker import Worker as Wrkr
