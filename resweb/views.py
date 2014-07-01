@@ -31,7 +31,7 @@ class ResWeb(object):
     def pages(self, start, size, link_function, width=20):
         pages = []
 
-        num_pages = size / width
+        num_pages = size // width
         if size % width > 0:
             num_pages += 1
 
